@@ -56,4 +56,4 @@ Feature: Alphasense assignment tests
     Then check order pet status as "<orderStatus>"
     Examples:
       | petId | categoryId | categoryName | petName | photoUrl                        | tagId | tagName       | status    | orderStatus | orderId | quantity | shipDate                 | complete |
-      | 15    | 12         | cat1         | myPet1  | http://url.com, http://url1.com | 13,14 | myTag1,myTag2 | available | placed      | 1       | 2        | 2020-11-07T14:43:02.354Z | true     |
+      | 21    | 12         | cat1         | myPet1  | http://url.com, http://url1.com | 13,14 | myTag1,myTag2 | available | placed      | 1       | 2        | 2020-11-07T14:43:02.354Z | true     |
